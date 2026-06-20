@@ -28,7 +28,7 @@ export default function Home() {
   const fetchDocuments = async () => {
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/documents"
+        "https://rag-ai-knowledge-assistant-z73f.onrender.com/documents"
       );
   
       const data = await response.json();
@@ -52,7 +52,7 @@ export default function Home() {
       formData.append("file", file);
 
       const response = await fetch(
-        "http://127.0.0.1:8000/upload",
+        "https://rag-ai-knowledge-assistant-z73f.onrender.com/upload",
         {
           method: "POST",
           body: formData,
@@ -79,7 +79,7 @@ export default function Home() {
       setThinking(true);
 
       const response = await fetch(
-        "http://127.0.0.1:8000/rag-chat",
+        "https://rag-ai-knowledge-assistant-z73f.onrender.com/rag-chat",
         {
           method: "POST",
           headers: {

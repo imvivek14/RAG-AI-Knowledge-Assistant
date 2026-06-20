@@ -110,19 +110,19 @@ Answer with Citations
 
 ## Home Page
 
-*Add Screenshot Here*
+![Home Page](frontend/public/Screenshots/home-page.png)
 
 ## Knowledge Base Panel
 
-*Add Screenshot Here*
+![Knowledge Base](frontend/public/Screenshots/knowledge-base.png)
 
 ## PDF Upload
 
-*Add Screenshot Here*
+![PDF Upload](frontend/public/Screenshots/pdf-upload.png)
 
 ## Question Answering with Citations
 
-*Add Screenshot Here*
+![Question Answering](frontend/public/Screenshots/question-answer.png)
 
 ---
 

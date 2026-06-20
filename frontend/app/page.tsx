@@ -237,6 +237,7 @@ export default function Home() {
                     {msg.answer}
                   </div>
 
+
                   <div className="mt-4 text-sm text-gray-400">
                     Sources: {msg.sources.join(", ")}
                   </div>
